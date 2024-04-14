@@ -1,0 +1,8 @@
+nodemon
+sqlite
+sqlite3
+express
+bcrypt
+jsonwebtoken
+mysql2
+dotenv
