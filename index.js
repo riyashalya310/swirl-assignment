@@ -161,8 +161,8 @@ class DiaryEntry {
             throw new Error('Diary entry not found');
         }
 
-        const { id,title, description, date, location, photos, userId } = rows[0];
-        return new DiaryEntry( id,title, description, date, location, photos, userId);
+        const { title, description, date, location, photos } = rows[0];
+        return new DiaryEntry( title, description, date, location, photos);
     }
 
     async update(title, description, date, location, photos) {
